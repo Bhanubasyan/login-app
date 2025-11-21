@@ -12,7 +12,7 @@ app.use(express.static("public")); // Serve index.html
 // MongoDB Connection
 mongoose
   .connect(
-    "mongodb+srv://bhanubasyan_db_user:WPaaS7gKwpyuxqgB@cluster1.rwapb1j.mongodb.net/registration_db",
+   //your databse link here,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
