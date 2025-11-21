@@ -1,0 +1,48 @@
+body {
+       background: url("nature.jpg") no-repeat center center/cover;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+        justify-items: center;
+     background: rgba(255, 255, 255, 0.3);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 40vw;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input, button {
+      width: 95%;
+      margin: 10px 0;
+      padding: 10px;
+     transition: 0.3s;
+    }
+    button {
+      background: #6799cf;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .login-link {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .login-link a {
+      color: #c5cbd5;
+      text-decoration: none;
+      font-weight: bold;
+    }
